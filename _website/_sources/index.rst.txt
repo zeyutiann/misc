@@ -1,18 +1,25 @@
 
-.. misc index file, created by `ablog start` on Fri Mar 17 23:54:43 2023.
+.. Jacob's blog index file, created by `ablog start` on Thu Oct  6 12:46:23 2022.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to TIAN, Zeyu's Blog!
-================================
+Welcome to my misc branch.
+========================================
 
-Hello World! Find more about me here: :ref:`about`
+recent posts:
+
+.. postlist:: 10
+   :date: %m-%d
+   :list-style: disc
 
 
-Here is a list of most recent posts:
+quick reference on documentations
 
-.. postlist:: 5
-   :excerpts:
+.. postlist:: 10
+   :date: %m-%d
+   :list-style: disc
+   :sort:
+   :category: Documentation
 
 
 .. `toctree` directive, below, contains list of non-post `.rst` files.
@@ -25,5 +32,5 @@ Here is a list of most recent posts:
 .. toctree::
    :hidden:
 
-   about.rst
+   blog/about.rst
 

@@ -2,32 +2,116 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>zeyutiann.github.io/misc</id>
   <title>misc Blog</title>
-  <updated>2023-03-17T15:58:21.832223+00:00</updated>
+  <updated>2023-03-17T16:14:16.564238+00:00</updated>
   <link href="zeyutiann.github.io/misc"/>
   <link href="zeyutiann.github.io/misc/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
   <entry>
-    <id>zeyutiann.github.io/misc/first-post/</id>
-    <title>First Post</title>
-    <updated>2023-03-17T00:00:00+08:00</updated>
+    <id>zeyutiann.github.io/misc/blog/2023-03/2023-03-12-sailing-sails.html</id>
+    <title>All about Sails</title>
+    <updated>2023-03-12T00:00:00+08:00</updated>
     <author>
-      <name>Zeyu</name>
+      <name>TIAN Zeyu</name>
     </author>
     <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;World, hello again! This very first paragraph of the post will be used
-as excerpt in archives and feeds. Find out how to control how much is shown
-in &lt;a class="reference external" href="https://ablog.readthedocs.org/manual/post-excerpts-and-images/"&gt;Post Excerpts and Images&lt;/a&gt;. Remember
-that you can refer to posts by file name, e.g. &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;:ref:`first-post`&lt;/span&gt;&lt;/code&gt; results
-in &lt;a class="reference internal" href="../first-post/#first-post"&gt;&lt;span class="std std-ref"&gt;First Post&lt;/span&gt;&lt;/a&gt;. Find out more at &lt;a class="reference external" href="https://ablog.readthedocs.org/manual/cross-referencing-blog-pages/"&gt;Cross-Referencing Blog Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;mast configuration - refers to the number of mast and where they are plaed&lt;/p&gt;
 &lt;/div&gt;
 </content>
-    <link href="zeyutiann.github.io/misc/first-post/" rel="alternate"/>
-    <summary>World, hello again! This very first paragraph of the post will be used
-as excerpt in archives and feeds. Find out how to control how much is shown
-in Post Excerpts and Images. Remember
-that you can refer to posts by file name, e.g. :ref:`first-post` results
-in first-post. Find out more at Cross-Referencing Blog Pages.</summary>
-    <category term="atag" label="atag"/>
+    <link href="zeyutiann.github.io/misc/blog/2023-03/2023-03-12-sailing-sails.html" rel="alternate"/>
+    <summary>mast configuration - refers to the number of mast and where they are plaed</summary>
+    <category term="sailtypes" label="sail types"/>
+    <published>2023-03-12T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>zeyutiann.github.io/misc/blog/2023-03/2023-03-13-sailing-boat-parts.html</id>
+    <title>Sailboat Parts</title>
+    <updated>2023-03-13T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;There are two types of rigging: running and standing rigging. The difference between the two is very simple.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="zeyutiann.github.io/misc/blog/2023-03/2023-03-13-sailing-boat-parts.html" rel="alternate"/>
+    <summary>There are two types of rigging: running and standing rigging. The difference between the two is very simple.</summary>
+    <category term="boatparts" label="boat parts"/>
+    <published>2023-03-13T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>zeyutiann.github.io/misc/blog/2023-03/2023-03-14-sailing-mainsail-maneuver.html</id>
+    <title>MainSail Maneuver</title>
+    <updated>2023-03-14T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;starting setup:&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="zeyutiann.github.io/misc/blog/2023-03/2023-03-14-sailing-mainsail-maneuver.html" rel="alternate"/>
+    <summary>starting setup:</summary>
+    <category term="mainsailmaneuver" label="mainsail maneuver"/>
+    <published>2023-03-14T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>zeyutiann.github.io/misc/blog/2023-03/2023-03-15-sailing-safety.html</id>
+    <title>Safety at sea</title>
+    <updated>2023-03-15T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;/div&gt;
+</content>
+    <link href="zeyutiann.github.io/misc/blog/2023-03/2023-03-15-sailing-safety.html" rel="alternate"/>
+    <category term="safety" label="safety"/>
+    <published>2023-03-15T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>zeyutiann.github.io/misc/blog/2023-03/2023-03-16-sailing-docking.html</id>
+    <title>Parking a boat</title>
+    <updated>2023-03-16T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://youtu.be/lg_di8FuaT0"&gt;https://youtu.be/lg_di8FuaT0&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="zeyutiann.github.io/misc/blog/2023-03/2023-03-16-sailing-docking.html" rel="alternate"/>
+    <summary>https://youtu.be/lg_di8FuaT0</summary>
+    <category term="parking" label="parking"/>
+    <published>2023-03-16T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>zeyutiann.github.io/misc/blog/2023-03/2023-03-17-sailing-headsail.html</id>
+    <title>Headsail maneuver</title>
+    <updated>2023-03-17T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Close Haul: Sails in tight&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="zeyutiann.github.io/misc/blog/2023-03/2023-03-17-sailing-headsail.html" rel="alternate"/>
+    <summary>Close Haul: Sails in tight</summary>
+    <category term="headsailmaneuver" label="headsail maneuver"/>
     <published>2023-03-17T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>zeyutiann.github.io/misc/blog/2023-03/2023-03-18-sailing-rules.html</id>
+    <title>Sailing Rules</title>
+    <updated>2023-03-18T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;/div&gt;
+</content>
+    <link href="zeyutiann.github.io/misc/blog/2023-03/2023-03-18-sailing-rules.html" rel="alternate"/>
+    <category term="sailingrules" label="sailing rules"/>
+    <published>2023-03-18T00:00:00+08:00</published>
   </entry>
 </feed>
