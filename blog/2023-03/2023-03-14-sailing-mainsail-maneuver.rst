@@ -81,12 +81,12 @@ helm to check:
 
 * (deck crew) harden the topping lift (pull the boom up a little bit, just enough to get it up and out of the way) - "Ready"
 * (pit crew) put halyard sheet on winch, clutch open - "Ready"
-* (pit crew) slowly ease halyard, and (deck crew) flake the sail at the luff as fast as you can
-    (helm): "lower the main"
+* (pit crew) slowly ease halyard, and (deck crew) flake the sail at the luff as fast as you can (helm): "lower the main"
     .. note::
         flake:
             as the sail comes down, you want to pull it first to one side and then to the other side, pull it to the first side and wait till that hank actually touches and stop that's going to be the first flake.
             two crews are optimal, one at the tack, the other at the clew, pull from each side to stretch the sail out
+
 * (pit crew) harden the mainsheet after the mainsail is down (safety for crew to tie the sail)
 * (deck crew) flake and secure the sail to the boom with sail tie
 * (deck crew) tie off halyard

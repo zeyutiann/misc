@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 
 
-# misc build configuration file, created by
-# `ablog start` on Fri Mar 17 23:54:43 2023.
+# Jacob's blog build configuration file, created by
+# `ablog start` on Thu Oct  6 12:46:23 2022.
 #
 # Note that not all possible configuration values are present in this file.
 # All configuration values have a default; values that are commented out
@@ -19,11 +19,11 @@ import alabaster
 # blog_path = 'blog'
 
 # The "title" for the blog, used in active pages.  Default is ``'Blog'``.
-blog_title = "misc Blog"
+blog_title = "Technical Blog"
 
 # Base URL for the website, required for generating feeds.
 # e.g. blog_baseurl = "http://example.com/"
-blog_baseurl = "zeyutiann.github.io/misc"
+blog_baseurl = "https://zeyutiann.github.io/"
 
 # Choose to archive only post titles. Archiving only titles can speed
 # up project building.
@@ -35,7 +35,7 @@ blog_baseurl = "zeyutiann.github.io/misc"
 # links. Dictionary keys are what should be used in ``post`` directive
 # to refer to the author.  Default is ``{}``.
 blog_authors = {
-    "TIAN, Zeyu": ("TIAN, Zeyu", None),
+    "TIAN Zeyu": ("TIAN Zeyu", None),
 }
 
 
@@ -190,15 +190,32 @@ extensions = [
     'sphinx.ext.extlinks',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
+    'sphinx.ext.githubpages',
+    'sphinx.ext.autodoc',
+    'myst_parser',
     'alabaster',
     'ablog',
+    'bokeh.sphinxext.bokeh_plot',
+    'jupyter_sphinx',
+
 ]
+
+# markdown links: https://myst-parser.readthedocs.io/en/v0.13.5/using/intro.html
+myst_update_mathjax = False
+
+# .py scripts are not scanned automatically! In order to include certain directories into .py scanning process
+# use following directive in sphinx conf.py file: bokeh_plot_pyfile_include_dirs = [“dir1”,”dir2”]
+bokeh_plot_pyfile_include_dirs = ["_static/python"]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ["_templates", ablog.get_html_templates_path()]
 
 # The suffix(es) of source filenames.
-source_suffix = ".rst"
+source_suffix = {
+    '.rst': 'restructuredtext',
+    '.txt': 'markdown',
+    '.md': 'markdown',
+}
 
 # The encoding of source files.
 # source_encoding = 'utf-8-sig'
@@ -207,9 +224,9 @@ source_suffix = ".rst"
 master_doc = "index"
 
 # General information about the project.
-project = "misc"
-copyright = "2023, TIAN, Zeyu"
-author = "TIAN, Zeyu"
+project = "zeyutiann's blog/misc"
+copyright = "2022, TIAN Zeyu"
+author = "TIAN Zeyu"
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -275,7 +292,10 @@ html_theme = 'alabaster'
 # further.  For a list of options available for each theme, see the
 # documentation.
 html_theme_options = {
-    'github_button': False,
+    'github_button': True,
+    'github_user': 'zeyutiann',
+    'github_repo': 'quantmashup',
+    'logo':'./logo/logo.jpeg'
 }
 
 # Add any paths that contain custom themes here, relative to this directory.
@@ -359,7 +379,13 @@ html_static_path = ["_static"]
 # implements a search results scorer. If empty, the default will be used.
 # html_search_scorer = 'scorer.js'
 
+rst_prolog = """
+.. role:: python(code)
+    :language: python
+    :class: highlight
+"""
+
 # Output file base name for HTML help builder.
-htmlhelp_basename = "miscdoc"
+htmlhelp_basename = "zeyutiannsblogdoc"
 
 
