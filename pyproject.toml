@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "zeyutiann.github.io/misc"
+version = "0.1.0"
+description = ""
+authors = ["Zeyu Tian <olivandertian@yahoo.com>"]
+readme = "./blog/2022-10/2022-10-01-githubpage-tutorial.rst"
+packages = [{include = "poetry_demo"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+ablog = "^0.10.29"
+sphinx-rtd-theme = "^1.0.0"
+sphinxcontrib-napoleon = "^0.7"
+myst-parser = "^0.18.1"
+sphinx-autobuild = "^2021.3.14"
+sphinx-autodoc-typehints = "^1.22"
+bokeh-plot = "^0.1.22"
+sphinx-charts = "^0.2.1"
+jupyter-sphinx = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

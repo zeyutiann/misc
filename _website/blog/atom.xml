@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>zeyutiann.github.io/misc</id>
+  <title>misc Blog</title>
+  <updated>2023-03-17T15:58:21.832223+00:00</updated>
+  <link href="zeyutiann.github.io/misc"/>
+  <link href="zeyutiann.github.io/misc/blog/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
+  <entry>
+    <id>zeyutiann.github.io/misc/first-post/</id>
+    <title>First Post</title>
+    <updated>2023-03-17T00:00:00+08:00</updated>
+    <author>
+      <name>Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;World, hello again! This very first paragraph of the post will be used
+as excerpt in archives and feeds. Find out how to control how much is shown
+in &lt;a class="reference external" href="https://ablog.readthedocs.org/manual/post-excerpts-and-images/"&gt;Post Excerpts and Images&lt;/a&gt;. Remember
+that you can refer to posts by file name, e.g. &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;:ref:`first-post`&lt;/span&gt;&lt;/code&gt; results
+in &lt;a class="reference internal" href="../first-post/#first-post"&gt;&lt;span class="std std-ref"&gt;First Post&lt;/span&gt;&lt;/a&gt;. Find out more at &lt;a class="reference external" href="https://ablog.readthedocs.org/manual/cross-referencing-blog-pages/"&gt;Cross-Referencing Blog Pages&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="zeyutiann.github.io/misc/first-post/" rel="alternate"/>
+    <summary>World, hello again! This very first paragraph of the post will be used
+as excerpt in archives and feeds. Find out how to control how much is shown
+in Post Excerpts and Images. Remember
+that you can refer to posts by file name, e.g. :ref:`first-post` results
+in first-post. Find out more at Cross-Referencing Blog Pages.</summary>
+    <category term="atag" label="atag"/>
+    <published>2023-03-17T00:00:00+08:00</published>
+  </entry>
+</feed>
