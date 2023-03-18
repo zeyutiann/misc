@@ -1,0 +1,117 @@
+.. post:: 2023.03.18
+   :tags: LTVP
+   :category: Visa
+   :author: TIAN Zeyu
+
+LTVP
+=======
+
+Parent(s) of a Singapore citizen or PR can apply for a Long-Term Visit Pass (LTVP) under the sponsorship of their Singapore citizen or PR child. The Singapore citizen or PR sponsor must be above 21 years old.
+
+.. note::
+
+    Parent(s)-in-law of a Singapore citizen or PR are not eligible to apply for a LTVP under their sponsorship.
+
+Formality
+==========
+https://www.ica.gov.sg/reside/LTVP/apply/parent-of-a-singapore-citizen-(sc)-or-singapore-permanent-resident-(pr)
+https://www.ica.gov.sg/reside/LTVP/apply
+
+.. note::
+    For Long-Term Visit Pass (LTVP) holders, please renew your LTVP at least 2 months before the expiration of your current LTVP.
+
+    First-time applicants need to apply for an LTVP with at least 10 days remaining on their Visit Pass. Visitors to Singapore must have a valid Visit Pass at all times during their stay. They must also have a passport issued only in their name.
+
+文件：
+    父母:
+        * 护照首页
+        * 护照照片
+    我：
+        * 出生证明
+        * 毕业证明
+        * 税 （6个月）和 cpf (12个月）
+        * 工作证明
+        * 工资清单 （6个月）
+
+fee：
+    application：30 each
+    formality：90 each
+
+timeline：
+    6 weeks
+
+steps:
+    * apply via ica - missing information
+    * submit document - physical documents need to gather them
+    * ipa then travel
+    * formality
+    * medical check-up
+
+
+Digital Card
+=============
+ICA Will Issue Only Digital Long-Term Passes From 27 February 2023; Issuance of Physical Cards Will Cease
+
+Vaccination
+===========
+Up-to-date COVID-19 vaccination is required for new Permanent Residence, Long-Term Pass and Work Pass applications, as well as the renewal of Work Permit holders in the construction, marine and process sectors or residing in dormitories.
+From 1 Apr 2023, persons who recently recovered from COVID-19 will no longer enjoy temporary exemption from COVID-19 vaccination requirements
+
+Entry Approval
+==============
+Due to covid:
+All LTVP holders[1], as well as those who have been granted IPA for LTVP, who are planning to enter or return to Singapore, must obtain ICA’s permission before they commence their journey to Singapore. They can do so by submitting their application for entry to ICA_nCoV_request@ica.gov.sg.
+
+
+Things I can improve on on this research
+========================================
+* symptoms:
+    My gathering of info is extremely inefficient, i seem to ask the right questions, but I was not finding the correct resources.
+
+* diagnosis:
+    * My inner thoughts are not always logical, it's sentimental...
+    * it also seems that I have issue comprehending some wordings, I tend to misread and stuck at some obvious mistakes.
+
+    * There are tons of information online, i search here a little bit, search there a little bit, but i wasn't able to get a good overview of the topic until I am searching for it for a few hours.
+    * the actual topics I'm interested:
+        * there are different LTVP, what are their difference:
+        * what is the difference between DP vs LTVP
+        * does parents need to reside in SG to apply for LTVP?
+
+            I thought yes, and I was stuck at this for very long.
+
+            I thought they need a short term visa to come to SG, and when IPA, they need to be here to collect them.
+            *meaning, i thought they don't have to be here right now when you apply for it, but you can apply first, and slowly make their way there...*
+
+            but it's a No: If you apply for LTVP, he/she needs to travel to SG within 3 months, which needs some planning
+
+            I tend to search for chinese resources, these chinese resources doesn't seem to answer for my questions, which is odd (i does suggest that, i might have been looking at the wrong directions!)
+
+            then I was worried about dates they need to confirm,
+
+        * what are the steps
+        * what are the info/documents required for each steps
+
+    * I searched all these things, but i kept jumping around and I forgot about important notes, as I don't really keep track of them...
+
+
+* improvements:
+
+    write down existing knowledge -> some of them maybe wrong, and I won't tell what's wrong until i can conceptualise it into a sentence.
+
+    write down questions
+
+    write summary on researches and links
+
+    talk to someone, or ask someone who knows...
+
+
+LTVP+
+======
+https://www.ica.gov.sg/news-and-publications/newsroom/media-release/351
+
+Reference
+==========
+- https://www.ica.gov.sg/reside/LTVP/apply#:~:text=Parent(s)%20of%20a%20Singapore,be%20above%2021%20years%20old.
+- https://www.ica.gov.sg/news-and-publications/newsroom/media-release/entry-approval-required-for-all-long-term-pass-holders#:~:text=All%20LTVP%20holders%2C%20as%20well,commence%20their%20journey%20to%20Singapore.
+- https://www.ica.gov.sg/reside/LTVP/cof-and-issue/for-parent-of-SC-PR

@@ -19,11 +19,11 @@ import alabaster
 # blog_path = 'blog'
 
 # The "title" for the blog, used in active pages.  Default is ``'Blog'``.
-blog_title = "Technical Blog"
+blog_title = "Misc Blog"
 
 # Base URL for the website, required for generating feeds.
 # e.g. blog_baseurl = "http://example.com/"
-blog_baseurl = "https://zeyutiann.github.io/"
+blog_baseurl = "https://zeyutiann.github.io/misc"
 
 # Choose to archive only post titles. Archiving only titles can speed
 # up project building.
