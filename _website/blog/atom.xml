@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://zeyutiann.github.io/misc</id>
   <title>Misc Blog</title>
-  <updated>2023-03-18T14:41:34.322432+00:00</updated>
+  <updated>2023-04-02T13:46:05.134735+00:00</updated>
   <link href="https://zeyutiann.github.io/misc"/>
   <link href="https://zeyutiann.github.io/misc/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -129,5 +129,39 @@
     <link href="https://zeyutiann.github.io/misc/blog/2023-03/2023-03-18-sailing-rules.html" rel="alternate"/>
     <category term="sailingrules" label="sailing rules"/>
     <published>2023-03-18T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>https://zeyutiann.github.io/misc/blog/2023-03/2023-03-19-hdb.html</id>
+    <title>HDB</title>
+    <updated>2023-03-19T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Eligibility Check:
+- &lt;a class="reference external" href="https://services2.hdb.gov.sg/webapp/BP13EligCheck/BP13PEssentialOcc.jsp"&gt;https://services2.hdb.gov.sg/webapp/BP13EligCheck/BP13PEssentialOcc.jsp&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://zeyutiann.github.io/misc/blog/2023-03/2023-03-19-hdb.html" rel="alternate"/>
+    <summary>Eligibility Check:
+- https://services2.hdb.gov.sg/webapp/BP13EligCheck/BP13PEssentialOcc.jsp</summary>
+    <category term="Hdb" label="Hdb"/>
+    <published>2023-03-19T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>https://zeyutiann.github.io/misc/blog/2023-04/2023-04-02-how-to-learn-a-domain-quickly.html</id>
+    <title>How to do research</title>
+    <updated>2023-04-02T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;知识框架和脉络很重要，抑制住看细节的冲动。&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://zeyutiann.github.io/misc/blog/2023-04/2023-04-02-how-to-learn-a-domain-quickly.html" rel="alternate"/>
+    <summary>知识框架和脉络很重要，抑制住看细节的冲动。</summary>
+    <category term="research" label="research"/>
+    <published>2023-04-02T00:00:00+08:00</published>
   </entry>
 </feed>

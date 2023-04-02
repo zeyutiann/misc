@@ -1,0 +1,17 @@
+.. post:: 2023.03.19
+   :tags: Hdb
+   :category: Housing
+   :author: TIAN Zeyu
+
+
+HDB
+====
+
+Eligibility Check:
+- https://services2.hdb.gov.sg/webapp/BP13EligCheck/BP13PEssentialOcc.jsp
+
+Housing Loan
+- https://www.hdb.gov.sg/residential/buying-a-flat/financing-a-flat-purchase/housing-loan-options/housing-loan-from-hdb
+
+
+
