@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://zeyutiann.github.io/misc</id>
   <title>Misc Blog</title>
-  <updated>2023-04-02T13:46:05.134735+00:00</updated>
+  <updated>2023-04-02T18:58:42.964645+00:00</updated>
   <link href="https://zeyutiann.github.io/misc"/>
   <link href="https://zeyutiann.github.io/misc/blog/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
@@ -163,5 +163,23 @@
     <summary>知识框架和脉络很重要，抑制住看细节的冲动。</summary>
     <category term="research" label="research"/>
     <published>2023-04-02T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>https://zeyutiann.github.io/misc/blog/2023-04/2023-04-03-a-lifelong-journey.html</id>
+    <title>A lifelong journey</title>
+    <updated>2023-04-03T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;故事背景：
+该剧以北方城市的一个平民社区“光字片”为背景，讲述周家三兄妹周秉义、周蓉、周秉昆等十几位平民子弟在近五十年时间内所经历的跌宕起伏的人生故事。东北改制&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://zeyutiann.github.io/misc/blog/2023-04/2023-04-03-a-lifelong-journey.html" rel="alternate"/>
+    <summary>故事背景：
+该剧以北方城市的一个平民社区“光字片”为背景，讲述周家三兄妹周秉义、周蓉、周秉昆等十几位平民子弟在近五十年时间内所经历的跌宕起伏的人生故事。东北改制</summary>
+    <category term="TVShow" label="TVShow"/>
+    <published>2023-04-03T00:00:00+08:00</published>
   </entry>
 </feed>
