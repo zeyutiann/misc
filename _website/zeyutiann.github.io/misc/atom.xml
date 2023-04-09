@@ -1,0 +1,185 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://zeyutiann.github.io/misc</id>
+  <title>misc</title>
+  <updated>2023-04-09T07:51:25.997845+00:00</updated>
+  <link href="https://zeyutiann.github.io/misc"/>
+  <link href="https://zeyutiann.github.io/misc/zeyutiann.github.io/misc/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
+  <entry>
+    <id>https://zeyutiann.github.io/misc/blog/2023-03/2023-03-12-sailing-sails.html</id>
+    <title>All about Sails</title>
+    <updated>2023-03-12T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;mast configuration - refers to the number of mast and where they are plaed&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://zeyutiann.github.io/misc/blog/2023-03/2023-03-12-sailing-sails.html" rel="alternate"/>
+    <summary>mast configuration - refers to the number of mast and where they are plaed</summary>
+    <category term="sailtypes" label="sail types"/>
+    <published>2023-03-12T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>https://zeyutiann.github.io/misc/blog/2023-03/2023-03-13-sailing-boat-parts.html</id>
+    <title>Sailboat Parts</title>
+    <updated>2023-03-13T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;There are two types of rigging: running and standing rigging. The difference between the two is very simple.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://zeyutiann.github.io/misc/blog/2023-03/2023-03-13-sailing-boat-parts.html" rel="alternate"/>
+    <summary>There are two types of rigging: running and standing rigging. The difference between the two is very simple.</summary>
+    <category term="boatparts" label="boat parts"/>
+    <published>2023-03-13T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>https://zeyutiann.github.io/misc/blog/2023-03/2023-03-14-sailing-mainsail-maneuver.html</id>
+    <title>MainSail Maneuver</title>
+    <updated>2023-03-14T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;starting setup:&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://zeyutiann.github.io/misc/blog/2023-03/2023-03-14-sailing-mainsail-maneuver.html" rel="alternate"/>
+    <summary>starting setup:</summary>
+    <category term="mainsailmaneuver" label="mainsail maneuver"/>
+    <published>2023-03-14T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>https://zeyutiann.github.io/misc/blog/2023-03/2023-03-15-sailing-safety.html</id>
+    <title>Safety at sea</title>
+    <updated>2023-03-15T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://zeyutiann.github.io/misc/blog/2023-03/2023-03-15-sailing-safety.html" rel="alternate"/>
+    <category term="safety" label="safety"/>
+    <published>2023-03-15T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>https://zeyutiann.github.io/misc/blog/2023-03/2023-03-16-sailing-docking.html</id>
+    <title>Parking a boat</title>
+    <updated>2023-03-16T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://youtu.be/lg_di8FuaT0"&gt;https://youtu.be/lg_di8FuaT0&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://zeyutiann.github.io/misc/blog/2023-03/2023-03-16-sailing-docking.html" rel="alternate"/>
+    <summary>https://youtu.be/lg_di8FuaT0</summary>
+    <category term="parking" label="parking"/>
+    <published>2023-03-16T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>https://zeyutiann.github.io/misc/blog/2023-03/2023-03-17-sailing-headsail.html</id>
+    <title>Headsail maneuver</title>
+    <updated>2023-03-17T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Close Haul: Sails in tight&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://zeyutiann.github.io/misc/blog/2023-03/2023-03-17-sailing-headsail.html" rel="alternate"/>
+    <summary>Close Haul: Sails in tight</summary>
+    <category term="headsailmaneuver" label="headsail maneuver"/>
+    <published>2023-03-17T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>https://zeyutiann.github.io/misc/blog/2023-03/2023-03-18-ltvp.html</id>
+    <title>LTVP</title>
+    <updated>2023-03-18T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Parent(s) of a Singapore citizen or PR can apply for a Long-Term Visit Pass (LTVP) under the sponsorship of their Singapore citizen or PR child. The Singapore citizen or PR sponsor must be above 21 years old.&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://zeyutiann.github.io/misc/blog/2023-03/2023-03-18-ltvp.html" rel="alternate"/>
+    <summary>Parent(s) of a Singapore citizen or PR can apply for a Long-Term Visit Pass (LTVP) under the sponsorship of their Singapore citizen or PR child. The Singapore citizen or PR sponsor must be above 21 years old.</summary>
+    <category term="LTVP" label="LTVP"/>
+    <published>2023-03-18T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>https://zeyutiann.github.io/misc/blog/2023-03/2023-03-18-sailing-rules.html</id>
+    <title>Sailing Rules</title>
+    <updated>2023-03-18T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://zeyutiann.github.io/misc/blog/2023-03/2023-03-18-sailing-rules.html" rel="alternate"/>
+    <category term="sailingrules" label="sailing rules"/>
+    <published>2023-03-18T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>https://zeyutiann.github.io/misc/blog/2023-03/2023-03-19-hdb.html</id>
+    <title>HDB</title>
+    <updated>2023-03-19T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;Eligibility Check:
+- &lt;a class="reference external" href="https://services2.hdb.gov.sg/webapp/BP13EligCheck/BP13PEssentialOcc.jsp"&gt;https://services2.hdb.gov.sg/webapp/BP13EligCheck/BP13PEssentialOcc.jsp&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://zeyutiann.github.io/misc/blog/2023-03/2023-03-19-hdb.html" rel="alternate"/>
+    <summary>Eligibility Check:
+- https://services2.hdb.gov.sg/webapp/BP13EligCheck/BP13PEssentialOcc.jsp</summary>
+    <category term="Hdb" label="Hdb"/>
+    <published>2023-03-19T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>https://zeyutiann.github.io/misc/blog/2023-04/2023-04-02-how-to-learn-a-domain-quickly.html</id>
+    <title>How to do research</title>
+    <updated>2023-04-02T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;知识框架和脉络很重要，抑制住看细节的冲动。&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://zeyutiann.github.io/misc/blog/2023-04/2023-04-02-how-to-learn-a-domain-quickly.html" rel="alternate"/>
+    <summary>知识框架和脉络很重要，抑制住看细节的冲动。</summary>
+    <category term="research" label="research"/>
+    <published>2023-04-02T00:00:00+08:00</published>
+  </entry>
+  <entry>
+    <id>https://zeyutiann.github.io/misc/blog/2023-04/2023-04-03-a-lifelong-journey.html</id>
+    <title>A lifelong journey</title>
+    <updated>2023-04-03T00:00:00+08:00</updated>
+    <author>
+      <name>TIAN Zeyu</name>
+    </author>
+    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
+&lt;p&gt;故事背景：
+该剧以北方城市的一个平民社区“光字片”为背景，讲述周家三兄妹周秉义、周蓉、周秉昆等十几位平民子弟在近五十年时间内所经历的跌宕起伏的人生故事。东北改制&lt;/p&gt;
+&lt;/div&gt;
+</content>
+    <link href="https://zeyutiann.github.io/misc/blog/2023-04/2023-04-03-a-lifelong-journey.html" rel="alternate"/>
+    <summary>故事背景：
+该剧以北方城市的一个平民社区“光字片”为背景，讲述周家三兄妹周秉义、周蓉、周秉昆等十几位平民子弟在近五十年时间内所经历的跌宕起伏的人生故事。东北改制</summary>
+    <category term="TVShow" label="TVShow"/>
+    <published>2023-04-03T00:00:00+08:00</published>
+  </entry>
+</feed>
