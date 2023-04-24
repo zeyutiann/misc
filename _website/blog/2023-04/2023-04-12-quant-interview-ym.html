@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Headsail maneuver &#8212; zeyutiann.misc  documentation</title>
+    <title>Interview with YML &#8212; zeyutiann.misc  documentation</title>
   
   
   
@@ -47,7 +47,7 @@
     <script src="../../_static/thebelab-helper.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@jupyter-widgets/html-manager@^1.0.1/dist/embed-amd.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'blog/2023-03/2023-03-17-sailing-headsail';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'blog/2023-04/2023-04-12-quant-interview-ym';</script>
     <link rel="shortcut icon" href="../../_static/logo.jpeg"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
@@ -477,7 +477,7 @@ document.write(`
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page">Headsail maneuver</li>
+    <li class="breadcrumb-item active" aria-current="page">Interview with YML</li>
   </ul>
 </nav>
 </div>
@@ -494,31 +494,151 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article" role="main">
                   
-<section id="headsail-maneuver">
-<h1>Headsail maneuver<a class="headerlink" href="#headsail-maneuver" title="Permalink to this heading">#</a></h1>
-<section id="headsail-trimming">
-<h2>Headsail Trimming<a class="headerlink" href="#headsail-trimming" title="Permalink to this heading">#</a></h2>
+<section id="interview-with-yml">
+<h1>Interview with YML<a class="headerlink" href="#interview-with-yml" title="Permalink to this heading">#</a></h1>
+<section id="trade-asset-class">
+<h2>Trade 的 Asset class 都是什么<a class="headerlink" href="#trade-asset-class" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
-<li><p>Close Haul: Sails in tight</p></li>
-<li><p>Close Reach: 1-2 feet outside lifelines</p></li>
-<li><p>Beam Reach: 3-4 feet outside lifelines</p></li>
-<li><p>Broad Reach &amp; Run: Sail comes off furler at 90% Angle</p></li>
-<li><dl class="simple">
-<dt>Use Telltales to fine tune sail:</dt><dd><ul>
-<li><p>Bottom 2 rows of telltales are the most important, they should flow back really nicely.</p></li>
-<li><p>Top telltales can be laughing about 50% of the time</p></li>
-<li><p>Jib car on the track, move forward a little bit</p></li>
-</ul>
-</dd>
-</dl>
-</li>
+<li><p>主要是美国股票，什么都trade点。</p></li>
+<li><p>美国股票是可以做short selling的</p></li>
 </ul>
 </section>
-<section id="reference">
-<h2>Reference<a class="headerlink" href="#reference" title="Permalink to this heading">#</a></h2>
+<section id="alpha-frequency">
+<h2>Alpha Frequency<a class="headerlink" href="#alpha-frequency" title="Permalink to this heading">#</a></h2>
+<p>daily prediction</p>
+</section>
+<section id="alpha-raw-data">
+<h2>Alpha raw data<a class="headerlink" href="#alpha-raw-data" title="Permalink to this heading">#</a></h2>
+<p>数据每天不止一个数据点，但回测时候每天会用一个数据点。</p>
+<p>这个数据点应该是用raw data feature extract出来的。</p>
+<p>yml说，downsample数据，每5分钟，然后把所有五分钟的数据以某种aggregation逻辑汇总，作为daily数据。</p>
+</section>
+<section id="id1">
+<h2>大概逻辑<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h2>
+<p>你觉得哪些股票会长，或相对其他股票会涨的更多，你就long这个更多的，short跌的或者更少的。</p>
+</section>
+<section id="alpha-horizon">
+<h2>alpha horizon<a class="headerlink" href="#alpha-horizon" title="Permalink to this heading">#</a></h2>
+<p>prediction of D+1 with how much to buy for D+1</p>
+<p>execution的话，这个总量会span到一天当中，用一个algo去fill，我的理解可能是vwap，minimise market impact。</p>
+<p>prediction 和 execution 分开做</p>
+</section>
+<section id="id2">
+<h2>语言<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
-<li><p><a class="reference external" href="https://www.youtube.com/watch?v=srhYk1mZMrE">https://www.youtube.com/watch?v=srhYk1mZMrE</a></p></li>
+<li><p>C++/Python</p></li>
+<li><p>系统用C++写的，所有的feature extraction module，backtesting module，每个人自己都有自己的code，甚至是regression</p></li>
+<li><p>常用的ml lib会有专门的dev去搓</p></li>
+<li><p>较大的ml lib会有专门的api</p></li>
 </ul>
+</section>
+<section id="id3">
+<h2>面试都考什么<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>technical 不怎么面编程</p></li>
+<li><p>有一定流程</p></li>
+<li><p>相关经历比较重要，有些策略会比较好</p></li>
+<li><p>做题 - 数学竞赛，笔试会比较差</p></li>
+<li><p>招应届生比较多</p></li>
+<li><p>实习会让你来的</p></li>
+</ul>
+</section>
+<section id="id4">
+<h2>年龄<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h2>
+<p>应届生</p>
+<p>太senior的人可能会down pay</p>
+</section>
+<section id="team-hierarchy">
+<h2>team hierarchy 是什么样<a class="headerlink" href="#team-hierarchy" title="Permalink to this heading">#</a></h2>
+<p>大team，research组的人做的都一样。</p>
+<p>researcher 会给所有pm写feature，做一些数据清理，down-sample 数据，
+pm 把alpha放一起做交易，自己也写alpha，看哪个alpha好。</p>
+<p>一个pm带着几个researcher sub pm，像一个小的子公司。</p>
+<p>quant dev：写框架，写api，不translate code，不让看 alpha code</p>
+</section>
+<section id="id5">
+<h2>有没有人带<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h2>
+<p>组里的pm带，common的知识会教，简单的知识会教，避免掉坑里，策略核心的东西不会教，大家也不会问。</p>
+<p>code 出bug了，帮忙debug。</p>
+<p>需要数据，数据找谁要。</p>
+<p>一来的时候，会让你用简单的idea来试一下，用系统跑一下，看下样本外performance怎么样，看下样本外是怎么样的。</p>
+<p>实在做不出来，mentor会让你看paper，</p>
+<p>长时间做不出来，会被开掉，策略的样本外performance一定要好的策略。</p>
+</section>
+<section id="researcherevaluation">
+<h2>怎么看researcher的evaluation<a class="headerlink" href="#researcherevaluation" title="Permalink to this heading">#</a></h2>
+<p>三个月看一次，有没有写出新的alpha，没有live alpha 就 看样本外的表现。长时间写不出有用的alpha可能就要被开除。</p>
+<p>你表现不好，老板会示你来加班。老板会说几次，mentor有一定帮忙。</p>
+<p>样本外的强有一定的criteria</p>
+</section>
+<section id="id6">
+<h2>需要自己学的<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h2>
+<p>一开始是让你实现一些paper，paper比如国内的研报。</p>
+<p>technical 要求不高</p>
+<p>数学统计一定要好</p>
+<p>很多东西要自己推一遍，要把一些东西推成close form的形式：假设每个股票不能买超过1%，那asset allocation应该什么是最优解，有点convex optimisation的意思。</p>
+<p>假设今天的return是明天的return，但我的constraint是risk management，怎么找最优解。用线性回归，手搓。</p>
+<p>手搓的优势：可以改细节。</p>
+<p>矩阵运算</p>
+<p>日频</p>
+<p>随机分析的东西他不用，但要是懂的话可能会有用。不会就不会往哪个方面想。</p>
+</section>
+<section id="backtest-framework">
+<h2>backtest framework<a class="headerlink" href="#backtest-framework" title="Permalink to this heading">#</a></h2>
+<ul class="simple">
+<li><p>怎么测评：今天的预测值*明天的return，把所有的加起来</p></li>
+<li><p>不太用event driven backtesting</p></li>
+<li><p>vectorised做到什么车程度可以上线：实盘是pm来决定。</p></li>
+<li><p>alpha 看五年的performance，他portfolio 的max draw down一般不能超过1%，单个alpha 的mdd不超过5%，所以不会出现margin call，因为有risk management</p></li>
+<li><p>alpha alpha 之间的correlation 不超过6%，但4%也有可能</p></li>
+<li><p>backtest 没考虑到的东西：market impact model</p></li>
+<li><p>不太看rmse</p></li>
+<li><p>不太看market impact</p></li>
+<li><p>看的是相对的</p></li>
+</ul>
+</section>
+<section id="python">
+<h2>python 的用途<a class="headerlink" href="#python" title="Permalink to this heading">#</a></h2>
+<p>调用包，validate某个idea好不好用，用python</p>
+<p>c++ 脚本，没有类似rolling的function，很多常用function 要自己写</p>
+<p>关于trigger，只看D+1</p>
+<p>feature处理 一般都是自己处理。</p>
+<p>真正的backtest还是用的c++脚本，因为那是production code，可以rolling 来optimise 这个model 的outcome</p>
+</section>
+<section id="id7">
+<h2>实盘和非实盘<a class="headerlink" href="#id7" title="Permalink to this heading">#</a></h2>
+<p>如何确保你写的code没有问题？</p>
+<p>随机看某十天的performance，但不告诉你那10天，所以你optimisation 并不能只用那10天的数据去optimise。</p>
+</section>
+<section id="ml">
+<h2>ML相关<a class="headerlink" href="#ml" title="Permalink to this heading">#</a></h2>
+<p>forward testing only</p>
+<p>不需要cross validation 去optmise</p>
+<p>19年以后都是out of sample</p>
+</section>
+<section id="paper">
+<h2>复现paper<a class="headerlink" href="#paper" title="Permalink to this heading">#</a></h2>
+<p>卖方研报，可能跟因子相关，金融工程方向，什么名字没太听清。。中金国际？</p>
+<p>数学模型：比如deep learning相关，时间序列比较准的paper，预测天气什么的。</p>
+<p>time series arima 的各种变体，用在不同的factor上，</p>
+</section>
+<section id="feature-investment">
+<h2>如何确定一个feature对预测 investment有用。<a class="headerlink" href="#feature-investment" title="Permalink to this heading">#</a></h2>
+<p>arima 用在财报上，这个data 以及这个data的feature上，然后需要确定下这个arima预测的值和asset value的值是否是highly correlated相关。</p>
+</section>
+<section id="id8">
+<h2>如何看某个数据是否有利用价值<a class="headerlink" href="#id8" title="Permalink to this heading">#</a></h2>
+<p>首先这个数据的frequency是什么样子的</p>
+<p>这个数据和股票价值的相关性，绝对值越大越好。</p>
+<p>该数据维数够多，直接扔到deep learning的数据里面去，让它去train。</p>
+</section>
+<section id="id9">
+<h2>建议<a class="headerlink" href="#id9" title="Permalink to this heading">#</a></h2>
+<p>先找一家练一练手，看看什么样子。带prediction比较相关。</p>
+</section>
+<section id="id10">
+<h2>注意：<a class="headerlink" href="#id10" title="Permalink to this heading">#</a></h2>
+<p>以下信息不要和他同公司人聊。</p>
 </section>
 </section>
 
@@ -566,14 +686,33 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#headsail-trimming">Headsail Trimming</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#reference">Reference</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#trade-asset-class">Trade 的 Asset class 都是什么</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#alpha-frequency">Alpha Frequency</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#alpha-raw-data">Alpha raw data</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1">大概逻辑</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#alpha-horizon">alpha horizon</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">语言</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">面试都考什么</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">年龄</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#team-hierarchy">team hierarchy 是什么样</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">有没有人带</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#researcherevaluation">怎么看researcher的evaluation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">需要自己学的</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#backtest-framework">backtest framework</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#python">python 的用途</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">实盘和非实盘</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ml">ML相关</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#paper">复现paper</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#feature-investment">如何确定一个feature对预测 investment有用。</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">如何看某个数据是否有利用价值</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id9">建议</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id10">注意：</a></li>
 </ul>
   </nav></div>
 
   <div class="sidebar-secondary-item">
   <div class="tocsection sourcelink">
-    <a href="../../_sources/blog/2023-03/2023-03-17-sailing-headsail.rst">
+    <a href="../../_sources/blog/2023-04/2023-04-12-quant-interview-ym.md">
       <i class="fa-solid fa-file-lines"></i> Show Source
     </a>
   </div>

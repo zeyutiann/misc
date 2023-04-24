@@ -16,7 +16,7 @@
     max-width: 18rem;
 }
 
-ul{
+.bd-sidebar-primary ul{
     margin-block-start: 0.5rem;
     padding-inline-start:0.5rem;
     list-style: none;
