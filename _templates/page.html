@@ -1,0 +1,19 @@
+{% extends "extra-layout.html" %}
+{% block body %}
+{{ body }}
+
+<!--https://stackoverflow.com/questions/4015816/why-is-font-face-throwing-a-404-error-on-woff-files-->
+  <system.webServer>
+      <staticContent>
+        <remove fileExtension=".woff" />
+        <!-- In case IIS already has this mime type -->
+        <mimeMap fileExtension=".woff" mimeType="application/x-font-woff" />
+        <remove fileExtension=".woff2" />
+        <!-- In case IIS already has this mime type -->
+        <mimeMap fileExtension=".woff2" mimeType="application/x-font-woff2" />
+        <remove fileExtension=".ttf" />
+        <!-- In case IIS already has this mime type -->
+        <mimeMap fileExtension=".ttf" mimeType="application/x-font-ttf" />
+      </staticContent>
+  </system.webServer>
+{% endblock %}
