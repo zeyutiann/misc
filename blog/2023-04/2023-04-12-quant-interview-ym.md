@@ -4,6 +4,7 @@ date: 2023.04.12
 author: TIAN Zeyu
 tags: alpha-medium-stock
 category: Interview
+orphan: true
 ---
 
 # Interview with YML

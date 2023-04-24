@@ -37,7 +37,7 @@ templates_path = ["_templates", ablog.get_html_templates_path()]
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path.
-exclude_patterns = [".venv/*","_website/_static/vendor/*","_website/_static/scripts/bootstrap.js.LICENSE.txt"]
+exclude_patterns = [".venv/*","_website/_static/vendor/*","_website/_static/scripts/bootstrap.js.LICENSE.txt","blog/**/*interview*"]
 
 # -- Internationalization ----------------------------------------------------
 

@@ -2,38 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <id>https://zeyutiann.github.io/misc</id>
   <title>misc</title>
-  <updated>2023-04-24T17:09:19.430647+00:00</updated>
+  <updated>2023-04-24T17:50:54.704547+00:00</updated>
   <link href="https://zeyutiann.github.io/misc"/>
   <link href="https://zeyutiann.github.io/misc/zeyutiann.github.io/misc/atom.xml" rel="self"/>
   <generator uri="https://ablog.readthedocs.org/" version="0.10.33.post1">ABlog</generator>
-  <entry>
-    <id>https://zeyutiann.github.io/misc/blog/2022-11/2022-11-24-quant-interview-tqz.html</id>
-    <title>Interview with TQZ</title>
-    <updated>2022-11-24T00:00:00+08:00</updated>
-    <author>
-      <name>TIAN Zeyu</name>
-    </author>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://zeyutiann.github.io/misc/blog/2022-11/2022-11-24-quant-interview-tqz.html" rel="alternate"/>
-    <category term="alpha-high-crypto" label="alpha-high-crypto"/>
-    <published>2022-11-24T00:00:00+08:00</published>
-  </entry>
-  <entry>
-    <id>https://zeyutiann.github.io/misc/blog/2023-01/2023-01-04-quant-interview-yxp.html</id>
-    <title>Interview with YXP</title>
-    <updated>2023-01-04T00:00:00+08:00</updated>
-    <author>
-      <name>TIAN Zeyu</name>
-    </author>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://zeyutiann.github.io/misc/blog/2023-01/2023-01-04-quant-interview-yxp.html" rel="alternate"/>
-    <category term="alpha-high-crypto" label="alpha-high-crypto"/>
-    <published>2023-01-04T00:00:00+08:00</published>
-  </entry>
   <entry>
     <id>https://zeyutiann.github.io/misc/blog/2023-03/2023-03-12-sailing-sails.html</id>
     <title>All about Sails</title>
@@ -209,37 +181,5 @@
 该剧以北方城市的一个平民社区“光字片”为背景，讲述周家三兄妹周秉义、周蓉、周秉昆等十几位平民子弟在近五十年时间内所经历的跌宕起伏的人生故事。东北改制</summary>
     <category term="TVShow" label="TVShow"/>
     <published>2023-04-03T00:00:00+08:00</published>
-  </entry>
-  <entry>
-    <id>https://zeyutiann.github.io/misc/blog/2023-04/2023-04-12-quant-interview-ym.html</id>
-    <title>Interview with YML</title>
-    <updated>2023-04-12T00:00:00+08:00</updated>
-    <author>
-      <name>TIAN Zeyu</name>
-    </author>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;主要是美国股票，什么都trade点。&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://zeyutiann.github.io/misc/blog/2023-04/2023-04-12-quant-interview-ym.html" rel="alternate"/>
-    <summary>主要是美国股票，什么都trade点。</summary>
-    <category term="alpha-medium-stock" label="alpha-medium-stock"/>
-    <published>2023-04-12T00:00:00+08:00</published>
-  </entry>
-  <entry>
-    <id>https://zeyutiann.github.io/misc/blog/2023-04/2023-04-25-quant-interview-wy.html</id>
-    <title>Interview with WY</title>
-    <updated>2023-04-25T00:00:00+08:00</updated>
-    <author>
-      <name>TIAN Zeyu</name>
-    </author>
-    <content type="html">&lt;div class="ablog-post-excerpt docutils container"&gt;
-&lt;p&gt;HK, Quant Trading, Equity, Trading Platform (平台，提供钱，自己自负盈亏)，mid freq equity&lt;/p&gt;
-&lt;/div&gt;
-</content>
-    <link href="https://zeyutiann.github.io/misc/blog/2023-04/2023-04-25-quant-interview-wy.html" rel="alternate"/>
-    <summary>HK, Quant Trading, Equity, Trading Platform (平台，提供钱，自己自负盈亏)，mid freq equity</summary>
-    <category term="alpha-sqpt-stock" label="alpha-sqpt-stock"/>
-    <published>2023-04-25T00:00:00+08:00</published>
   </entry>
 </feed>

@@ -4,7 +4,9 @@ date: 2023.04.25
 author: TIAN Zeyu
 tags: alpha-sqpt-stock
 category: Interview
+orphan: true
 ---
+
 
 # Interview with WY
 
